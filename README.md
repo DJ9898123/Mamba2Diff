@@ -45,13 +45,13 @@ the training process.
 A new agent can be trained using the following command:
 
 ```bash
-[beso]$ conda activate play 
-(play)[beso]$ python scripts/training.py 
+$ conda activate mamba2 
+(mamba2)$ python scripts/training.py 
 ```
 We can easily train the agent on 10 seeds sequentially by using:
 ```bash
-[beso]$ conda activate play 
-(play)[beso]$ python scripts/training.py --multirun seed=1,2,3,4,5,6,7,8,9,10
+$ conda activate mamba2 
+(mamba2)$ python scripts/training.py --multirun seed=1,2,3,4,5,6,7,8,9,10
 ```
 
 Please note, that we are using wandb to log the training of our model in this repo. Thus one need to adjust, the 
