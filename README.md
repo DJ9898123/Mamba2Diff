@@ -48,12 +48,6 @@ A new agent can be trained using the following command:
 [beso]$ conda activate play 
 (play)[beso]$ python scripts/training.py 
 ```
-To train the CFG-variant of BESO change the following parameter:
-```bash
-[beso]$ conda activate play 
-(play)[beso]$ python scripts/training.py cond_mask_prob=0.1
-```
-
 We can easily train the agent on 10 seeds sequentially by using:
 ```bash
 [beso]$ conda activate play 
